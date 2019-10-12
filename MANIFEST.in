@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include degree_curr *.css
+recursive-include degree_curr *.csv
+recursive-include degree_curr *.html
+recursive-include degree_curr *.ico
+recursive-include degree_curr *.js
+recursive-include degree_curr *.json
+recursive-include degree_curr *.md
+recursive-include degree_curr *.png
+recursive-include degree_curr *.py
+recursive-include degree_curr *.svg
+recursive-include degree_curr *.txt
+recursive-exclude degree_curr *.pyc
