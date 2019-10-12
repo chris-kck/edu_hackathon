@@ -10,10 +10,12 @@ frappe.ui.form.on('Degree Curriculum', {
 	student_number: function(frm){
 	frappe.call({
     method:'degree_curr.Calculator.test',
-    args: {'test' : frm.doc.student_name}, 
+    args: {'student_number' : frm.doc.student_number}, 
     callback: function(r) { 
         console.log(r.message);
     	console.log("Debug: py is running 1");
+    	msgprint(r.message);
+    	msgprint("We need to return a list");
         // set the returned value in a field
         //cur_frm.set_value("naming_series", r.message);
     	}

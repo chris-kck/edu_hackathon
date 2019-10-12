@@ -86,11 +86,11 @@ app_license = "MIT"
 # 		"on_trash": "method"
 #	}
 # }
-doc_events = {
- 	"Degree Curriculum": {
- 		"on_update": "degree_curr.Calculator.test"
-	}
-}
+#doc_events = {
+ #	"Degree Curriculum": {
+ #		"on_update": "degree_curr.Calculator.test1"
+	#}
+#}
 # Scheduled Tasks
 # ---------------
 
